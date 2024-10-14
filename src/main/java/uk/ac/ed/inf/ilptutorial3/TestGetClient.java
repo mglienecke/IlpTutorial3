@@ -1,8 +1,8 @@
-package uk.ac.ed.inf.acptutorial1;
+package uk.ac.ed.inf.ilptutorial3;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import uk.ac.ed.inf.acptutorial1.data.Restaurant;
+import uk.ac.ed.inf.ilptutorial3.data.Restaurant;
 
 import java.io.IOException;
 import java.net.URL;

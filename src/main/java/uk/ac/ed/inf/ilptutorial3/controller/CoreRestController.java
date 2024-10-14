@@ -1,10 +1,9 @@
-package uk.ac.ed.inf.acptutorial1.controller;
+package uk.ac.ed.inf.ilptutorial3.controller;
 
 import com.google.gson.Gson;
-import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
-import uk.ac.ed.inf.acptutorial1.data.Restaurant;
-import uk.ac.ed.inf.acptutorial1.data.Tuple;
+import uk.ac.ed.inf.ilptutorial3.data.Restaurant;
+import uk.ac.ed.inf.ilptutorial3.data.Tuple;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
