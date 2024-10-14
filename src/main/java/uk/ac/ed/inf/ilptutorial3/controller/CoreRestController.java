@@ -32,6 +32,7 @@ public class CoreRestController {
      */
     @GetMapping("/restaurants")
     public Restaurant[] restaurants() {
+        System.out.println("/restaurants called");
         return new Gson().fromJson(getBufferedReaderForResource("json/restaurants.json"), Restaurant[].class);
     }
 
